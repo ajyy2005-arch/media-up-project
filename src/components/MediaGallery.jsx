@@ -35,7 +35,7 @@ const MediaGallery = ({ items, onDelete }) => {
                                 onClick={() => setSelectedItem(item)}
                                 className="bg-blue-500/90 hover:bg-blue-600 text-white px-4 py-2 rounded-lg font-medium transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 shadow-lg flex items-center gap-2"
                             >
-                                <span>👁️</span> View  
+                                <span>👁️</span> View
                             </button>
                             <button
                                 onClick={() => onDelete(item.id)}
